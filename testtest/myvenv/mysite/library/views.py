@@ -7,6 +7,7 @@ from django.http import HttpResponse, HttpResponseRedirect
 from django.core.urlresolvers import reverse
 from django.contrib.auth.models import User
 
+#inline comment for tavis testing
 
 def main(request):
     return render(request, 'library/main.html')
